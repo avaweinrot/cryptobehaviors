@@ -1,0 +1,10 @@
+Creating cryptocurrency based on current block difficulty 
+      if current block difficulty is above 20, mint three times as much currency to the user 
+      if current block difficulty is below 20, mint one third as much currency to the user 
+Creating cryptocurrency based on message data
+      if message data is above 25 bytes, mint double the amount of currency to the user 
+      if message data is below 12 bytes, mint one fourth the amount of currency to the user 
+Ensuring longevity of the coin 
+      for every transaction with message data less than 16 bytes, send 1% of reward to the creator 
+      if the quantity of currency remaining shrinks below one fourth of the starting amount
+          for every transaction with message data greater than 16 bytes, creator sends 0.02% of stored currency to miner 
